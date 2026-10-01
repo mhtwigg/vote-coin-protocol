@@ -1,0 +1,490 @@
+{
+ "sample": {
+  "node": "Sample Node 01",
+  "batch_seq": 3,
+  "batch_label": "0003",
+  "window": "09:00–10:00",
+  "window_start": "09:00",
+  "window_end": "10:00",
+  "n": 8,
+  "note": "sample only — a real batch holds at least 100 ballots"
+ },
+ "batch_rules": {
+  "T_minutes": 60,
+  "B_max": 4096,
+  "n_min": 100,
+  "finality_slots": 129600,
+  "finality_hours": 36.0,
+  "genesis": {
+   "securityParam": 2160,
+   "activeSlotsCoeff": 0.05,
+   "slotLength_s": 1
+  },
+  "dashboard_hours": 72
+ },
+ "batch": [
+  {
+   "pos": 1,
+   "box_pos": 3,
+   "index": "36183202",
+   "printed": "3618 3202",
+   "selections": [
+    [
+     "CONTEST 1",
+     "CHOICE C"
+    ],
+    [
+     "CONTEST 2",
+     "CHOICE B"
+    ],
+    [
+     "MEASURE 3",
+     "YES"
+    ]
+   ],
+   "R_text": "INDEX: 36183202\nCONTEST 1: CHOICE C\nCONTEST 2: CHOICE B\nMEASURE 3: YES\n",
+   "R_bytes": 71,
+   "salt": "57306ce78f98f973fe98668717d552aee64cf4b08c722a9828b6f28ea621c740",
+   "fingerprint": "55eaae1db87959fac20311adfb5e929090aa350faae7cb99b6f7831a5a24cdea",
+   "leaf": "a49c5e5fbcacce52d714de5652bc239d4ddcd3bf967f76f6ec60da62be634499",
+   "tab": "#1F3864",
+   "tab_name": "navy"
+  },
+  {
+   "pos": 2,
+   "box_pos": 2,
+   "index": "30904408",
+   "printed": "3090 4408",
+   "selections": [
+    [
+     "CONTEST 1",
+     "CHOICE B"
+    ],
+    [
+     "CONTEST 2",
+     "CHOICE A"
+    ],
+    [
+     "MEASURE 3",
+     "YES"
+    ]
+   ],
+   "R_text": "INDEX: 30904408\nCONTEST 1: CHOICE B\nCONTEST 2: CHOICE A\nMEASURE 3: YES\n",
+   "R_bytes": 71,
+   "salt": "1c5c036ca3fce2f687ce0004c1a81ac6bfba2770cb45fc4001d0e12bb8dc93a2",
+   "fingerprint": "5ad00c958d482c2ca26db7fba6ee522905c4349153c0fdfa5904f11b863b679a",
+   "leaf": "ba4e01aec72ac0573dc6dc29d4047f2a98393acdcad673a68a5f13e1345a383c",
+   "tab": "#0E6470",
+   "tab_name": "teal"
+  },
+  {
+   "pos": 3,
+   "box_pos": 7,
+   "index": "77028142",
+   "printed": "7702 8142",
+   "selections": [
+    [
+     "CONTEST 1",
+     "CHOICE A"
+    ],
+    [
+     "CONTEST 2",
+     "CHOICE B"
+    ],
+    [
+     "MEASURE 3",
+     "YES"
+    ]
+   ],
+   "R_text": "INDEX: 77028142\nCONTEST 1: CHOICE A\nCONTEST 2: CHOICE B\nMEASURE 3: YES\n",
+   "R_bytes": 71,
+   "salt": "2574472267268764f9c40cff3c6f93a4e4a2a2f8f6fe672037312facae7f7e71",
+   "fingerprint": "756f385f9db9c96cc55af062132aa54341dbb7d2642f3e0eae6a7c136fdba4b8",
+   "leaf": "9dbdec5e3e9aef295cd254ea0b339412a1b8f1658344e2d5dbbeeb486e14c705",
+   "tab": "#4E7A27",
+   "tab_name": "green"
+  },
+  {
+   "pos": 4,
+   "box_pos": 1,
+   "index": "05150293",
+   "printed": "0515 0293",
+   "selections": [
+    [
+     "CONTEST 1",
+     "CHOICE A"
+    ],
+    [
+     "CONTEST 2",
+     "CHOICE A"
+    ],
+    [
+     "MEASURE 3",
+     "NO"
+    ]
+   ],
+   "R_text": "INDEX: 05150293\nCONTEST 1: CHOICE A\nCONTEST 2: CHOICE A\nMEASURE 3: NO\n",
+   "R_bytes": 70,
+   "salt": "03e747eebf0adf0132f9ad641548aca1aad99672599feebbb94196e0cca4d40e",
+   "fingerprint": "880d738d9f9781257ab513b312e5581f71419543b9c74f7e5d6b763408e537d6",
+   "leaf": "70c92ea4d2b38741d266303cc98fd4faa616aaf17320afc554b38334ce8bd14c",
+   "tab": "#B4500F",
+   "tab_name": "orange"
+  },
+  {
+   "pos": 5,
+   "box_pos": 6,
+   "index": "53071166",
+   "printed": "5307 1166",
+   "selections": [
+    [
+     "CONTEST 1",
+     "CHOICE A"
+    ],
+    [
+     "CONTEST 2",
+     "CHOICE B"
+    ],
+    [
+     "MEASURE 3",
+     "YES"
+    ]
+   ],
+   "R_text": "INDEX: 53071166\nCONTEST 1: CHOICE A\nCONTEST 2: CHOICE B\nMEASURE 3: YES\n",
+   "R_bytes": 71,
+   "salt": "41cd26de7f1025bbd05c0f10ec26dcdfc57c4681a52e6dd286686ae07bc6e31b",
+   "fingerprint": "a1a467b88204e2b9860c5e4939851a1732e2106fcc1c913cd1dfe3362357600b",
+   "leaf": "e499e5b3dfda06b2f9e3a44b7d5bc9547bc1acbbb1717748cbe6bb222e4b354a",
+   "tab": "#5F497A",
+   "tab_name": "purple"
+  },
+  {
+   "pos": 6,
+   "box_pos": 8,
+   "index": "99842665",
+   "printed": "9984 2665",
+   "selections": [
+    [
+     "CONTEST 1",
+     "CHOICE A"
+    ],
+    [
+     "CONTEST 2",
+     "CHOICE B"
+    ],
+    [
+     "MEASURE 3",
+     "YES"
+    ]
+   ],
+   "R_text": "INDEX: 99842665\nCONTEST 1: CHOICE A\nCONTEST 2: CHOICE B\nMEASURE 3: YES\n",
+   "R_bytes": 71,
+   "salt": "7736d58c8d73883c0b422b5b8d5a53fdb3ac44f3642841d64137d1368d897171",
+   "fingerprint": "b245d512657427cbd57920b920dcd7bf26fee31fd56f0543cb8b07df1929f4df",
+   "leaf": "c80baf81d900a904356586ab8eafaf374fb5c79aa8ea99963aefff38e3c45217",
+   "tab": "#44546A",
+   "tab_name": "slate"
+  },
+  {
+   "pos": 7,
+   "box_pos": 4,
+   "index": "41999390",
+   "printed": "4199 9390",
+   "selections": [
+    [
+     "CONTEST 1",
+     "CHOICE A"
+    ],
+    [
+     "CONTEST 2",
+     "CHOICE B"
+    ],
+    [
+     "MEASURE 3",
+     "NO"
+    ]
+   ],
+   "R_text": "INDEX: 41999390\nCONTEST 1: CHOICE A\nCONTEST 2: CHOICE B\nMEASURE 3: NO\n",
+   "R_bytes": 70,
+   "salt": "ace827c2d4122f8464fcbdea7de5167237fe0947202dc9f1bf7f8abf7a1e94e0",
+   "fingerprint": "d44e41fa67da1fb05f33b7d6644af88c017fe74fe78c2e470bcacdc5c73aec54",
+   "leaf": "0dfd9eea77dd1f620618d01f0066dac66f77892b17f9fd1fa429c72f559d3731",
+   "tab": "#7B1F3A",
+   "tab_name": "burgundy"
+  },
+  {
+   "pos": 8,
+   "box_pos": 5,
+   "index": "43085720",
+   "printed": "4308 5720",
+   "selections": [
+    [
+     "CONTEST 1",
+     "CHOICE C"
+    ],
+    [
+     "CONTEST 2",
+     "CHOICE A"
+    ],
+    [
+     "MEASURE 3",
+     "NO SELECTION"
+    ]
+   ],
+   "R_text": "INDEX: 43085720\nCONTEST 1: CHOICE C\nCONTEST 2: CHOICE A\nMEASURE 3: NO SELECTION\n",
+   "R_bytes": 80,
+   "salt": "86e6d63f30da6b382e586d7b9e7133842c19f7ada893d0ef284927efc220e530",
+   "fingerprint": "f8bbfe7bdb716361d64920b2a67cf78bacd1449eeb4a66cefce0a293cf3dbb10",
+   "leaf": "f1d60f5f99bc308da7a8274e380c470db400005aab8608a3b301645711a818cf",
+   "tab": "#595959",
+   "tab_name": "gray"
+  }
+ ],
+ "box_order": [
+  "05150293",
+  "30904408",
+  "36183202",
+  "41999390",
+  "43085720",
+  "53071166",
+  "77028142",
+  "99842665"
+ ],
+ "level1": [
+  "43e553d9e8f64a9395db961acd71f82c4b96aacf9040c59e4e40089b86826a9f",
+  "c8b8b6d09e049bcdad61b0911b469538ba03c4d065ba869e8fabbb19e03f1d54",
+  "d13516a004fbff74039c5c6fe38be81468b094f8de192b0fcce2e6fa0ff1f470",
+  "881ac3928498b451ac1fe948f46edd32e2a3485ad1a887a1e8a12571c75a925c"
+ ],
+ "level2": [
+  "b83a4efc8cb724c6a7b15f618b10ae603abefa9a9bf0447c563ecd44bc639c22",
+  "00b17d9f446fb73bf316fe024150f373f11b84578060b0699b43ef40b24667b8"
+ ],
+ "root": "e2fe3a46a74352ad0ebd28c39575830745cb2b805b4acfae00c394f1f8d72a75",
+ "ballot_0293": {
+  "pos": 4,
+  "box_pos": 1,
+  "index": "05150293",
+  "printed": "0515 0293",
+  "selections": [
+   [
+    "CONTEST 1",
+    "CHOICE A"
+   ],
+   [
+    "CONTEST 2",
+    "CHOICE A"
+   ],
+   [
+    "MEASURE 3",
+    "NO"
+   ]
+  ],
+  "R_text": "INDEX: 05150293\nCONTEST 1: CHOICE A\nCONTEST 2: CHOICE A\nMEASURE 3: NO\n",
+  "R_hex": "494e4445583a2030353135303239330a434f4e5445535420313a2043484f49434520410a434f4e5445535420323a2043484f49434520410a4d45415355524520333a204e4f0a",
+  "R_bytes": 70,
+  "salt": "03e747eebf0adf0132f9ad641548aca1aad99672599feebbb94196e0cca4d40e",
+  "hash_input_bytes": 102,
+  "Vd": "880d738d9f9781257ab513b312e5581f71419543b9c74f7e5d6b763408e537d6",
+  "Vp": "880d738d9f9781257ab513b312e5581f71419543b9c74f7e5d6b763408e537d6",
+  "S": 1,
+  "leaf": "70c92ea4d2b38741d266303cc98fd4faa616aaf17320afc554b38334ce8bd14c",
+  "tracking_code": "880d738d9f9781257ab513b312e5581f71419543b9c74f7e5d6b763408e537d6"
+ },
+ "counterexample": {
+  "recorded_R_text": "INDEX: 05150293\nCONTEST 1: CHOICE A\nCONTEST 2: CHOICE B\nMEASURE 3: NO\n",
+  "Vd_bad": "619d2d8cc9fa14b2489dbe019a50f3e92b416d2cba041ae369a17e442de1257d",
+  "Vp": "880d738d9f9781257ab513b312e5581f71419543b9c74f7e5d6b763408e537d6",
+  "S": 0
+ },
+ "proof_0293": [
+  {
+   "side": "left",
+   "hash": "9dbdec5e3e9aef295cd254ea0b339412a1b8f1658344e2d5dbbeeb486e14c705"
+  },
+  {
+   "side": "left",
+   "hash": "43e553d9e8f64a9395db961acd71f82c4b96aacf9040c59e4e40089b86826a9f"
+  },
+  {
+   "side": "right",
+   "hash": "00b17d9f446fb73bf316fe024150f373f11b84578060b0699b43ef40b24667b8"
+  }
+ ],
+ "proof_steps": [
+  {
+   "input_left": "9dbdec5e3e9aef295cd254ea0b339412a1b8f1658344e2d5dbbeeb486e14c705",
+   "input_right": "70c92ea4d2b38741d266303cc98fd4faa616aaf17320afc554b38334ce8bd14c",
+   "output": "c8b8b6d09e049bcdad61b0911b469538ba03c4d065ba869e8fabbb19e03f1d54"
+  },
+  {
+   "input_left": "43e553d9e8f64a9395db961acd71f82c4b96aacf9040c59e4e40089b86826a9f",
+   "input_right": "c8b8b6d09e049bcdad61b0911b469538ba03c4d065ba869e8fabbb19e03f1d54",
+   "output": "b83a4efc8cb724c6a7b15f618b10ae603abefa9a9bf0447c563ecd44bc639c22"
+  },
+  {
+   "input_left": "b83a4efc8cb724c6a7b15f618b10ae603abefa9a9bf0447c563ecd44bc639c22",
+   "input_right": "00b17d9f446fb73bf316fe024150f373f11b84578060b0699b43ef40b24667b8",
+   "output": "e2fe3a46a74352ad0ebd28c39575830745cb2b805b4acfae00c394f1f8d72a75"
+  }
+ ],
+ "proof_bytes": 96,
+ "proof_sizes": [
+  {
+   "n": 8,
+   "max_hashes": 3,
+   "max_bytes": 96
+  },
+  {
+   "n": 100,
+   "max_hashes": 7,
+   "max_bytes": 224
+  },
+  {
+   "n": 500,
+   "max_hashes": 9,
+   "max_bytes": 288
+  },
+  {
+   "n": 1000,
+   "max_hashes": 10,
+   "max_bytes": 320
+  },
+  {
+   "n": 1500,
+   "max_hashes": 11,
+   "max_bytes": 352
+  },
+  {
+   "n": 4096,
+   "max_hashes": 12,
+   "max_bytes": 384
+  },
+  {
+   "n": 1048576,
+   "max_hashes": 20,
+   "max_bytes": 640
+  }
+ ],
+ "capacity": {
+  "per_printer": 300,
+  "printers": 5,
+  "table": [
+   {
+    "failed": 0,
+    "working": 5,
+    "per_hour": 1500,
+    "meets_peak": true
+   },
+   {
+    "failed": 1,
+    "working": 4,
+    "per_hour": 1200,
+    "meets_peak": true
+   },
+   {
+    "failed": 2,
+    "working": 3,
+    "per_hour": 900,
+    "meets_peak": true
+   },
+   {
+    "failed": 3,
+    "working": 2,
+    "per_hour": 600,
+    "meets_peak": true
+   },
+   {
+    "failed": 4,
+    "working": 1,
+    "per_hour": 300,
+    "meets_peak": false
+   }
+  ],
+  "filing_per_hour": 1000,
+  "printing_per_hour": 1500,
+  "throughput": 1000,
+  "phase1_peak": [
+   200,
+   500
+  ],
+  "min_printers_for_peak": 2,
+  "failures_tolerated_at_peak": 3,
+  "filing_headroom": 2.0,
+  "printing_headroom": 3.0,
+  "stress_test_per_hour": 1000,
+  "stress_test_hours": 8,
+  "stress_test_total": 8000,
+  "ups_hours_min": 4,
+  "phase2_county": [
+   2000,
+   5000
+  ],
+  "phase3_state": 50000
+ },
+ "rule_of_three": {
+  "p_gate": 1e-05,
+  "p_gate_pct": "0.001%",
+  "confidence": 0.95,
+  "n_needed_exact": 299572,
+  "n_gate": 300000,
+  "n_needed_approx": 300000,
+  "ub_8000": 0.00037439643035241943,
+  "approx_3_over_8000": 0.000375,
+  "ub_300000": 9.985724387484574e-06,
+  "hours_at_1000": 300.0
+ },
+ "index_space": 100000000,
+ "index_repeats": {
+  "1000": {
+   "expected_repeats": 0.004995,
+   "p_any_repeat": 0.004982545732484023,
+   "p_any_repeat_exact": 0.004982562291323767
+  },
+  "5000": {
+   "expected_repeats": 0.124975,
+   "p_any_repeat": 0.1174810347170574,
+   "p_any_repeat_exact": 0.11748287279073066
+  },
+  "10000": {
+   "expected_repeats": 0.49995,
+   "p_any_repeat": 0.393439012996205,
+   "p_any_repeat_exact": 0.3934491212508059
+  }
+ },
+ "obj7": {
+  "d": 0.066,
+  "looked_pct": 40,
+  "reported_pct": 6.6,
+  "p_at_least_one_report": {
+   "1": 0.06600000000000006,
+   "5": 0.28922133865257627,
+   "11": 0.5281373107313354,
+   "20": 0.7447665889569668,
+   "50": 0.967088792892964,
+   "100": 0.9989168524467578
+  },
+  "margin_example": 20,
+  "flips_to_overturn": 11
+ },
+ "cardano": {
+  "tps_observed": 3.5,
+  "tx_per_hour": 12600.0,
+  "kb_per_s": 4.5
+ },
+ "salt": {
+  "bytes": 32,
+  "bits": 256,
+  "values": "115792089237316195423570985008687907853269984665640564039457584007913129639936",
+  "values_sci": "1.16e+77"
+ },
+ "illustrations": {
+  "node_day": {
+   "cast": 1000,
+   "burns": 962,
+   "provisional": 23,
+   "no_card": 15,
+   "spoiled": 12
+  }
+ }
+}

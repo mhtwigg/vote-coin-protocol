@@ -1,0 +1,38 @@
+{
+ "params": {
+  "utxoCostPerByte": 4310,
+  "maxTxSize": 16384,
+  "maxBlockBodySize": 90112,
+  "maxValueSize": 5000
+ },
+ "budget_bytes_per_second": 4505.6,
+ "budget_bytes_per_hour": 16220160.000000002,
+ "burn_bytes_planning": 100,
+ "burn_bytes_marginal": 57,
+ "phases": {
+  "I": {
+   "peak_per_hour": 500,
+   "burn_bytes_per_hour": 50000,
+   "share_of_chain": 0.0030825836489898986
+  },
+  "II": {
+   "peak_per_hour": 5000,
+   "burn_bytes_per_hour": 500000,
+   "share_of_chain": 0.030825836489898985
+  },
+  "III": {
+   "peak_per_hour": 50000,
+   "burn_bytes_per_hour": 5000000,
+   "share_of_chain": 0.3082583648989899
+  },
+  "IV": {
+   "in_person_ballots": 113760000.0,
+   "burn_bytes": 11376000000.0,
+   "days_of_whole_chain": 29.22289299242424
+  },
+  "roots_per_1000_nodes": {
+   "bytes_per_hour": 32000,
+   "share_of_chain": 0.001972853535353535
+  }
+ }
+}

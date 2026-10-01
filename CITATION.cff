@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use or discuss this work, please cite it as below."
+title: "The Vote Coin Protocol — White Paper v2.0 Revision 4"
+type: dataset
+authors:
+  - family-names: Twigg
+    given-names: Michael
+    orcid: "https://orcid.org/0009-0002-4607-6919"
+version: "2.0"
+date-released: "2026-10-01"
+doi: "10.5281/zenodo.23087313"
+license: CC-BY-4.0
+url: "https://doi.org/10.5281/zenodo.23087313"
+keywords:
+  - election security
+  - voting systems
+  - paper ballots
+  - software independence
+  - risk-limiting audits
+  - blockchain
+  - Cardano
+  - Merkle tree
+  - zero-knowledge proofs
+  - VVSG 2.0
+preferred-citation:
+  type: report
+  title: "The Vote Coin Protocol — White Paper v2.0 Revision 4"
+  authors:
+    - family-names: Twigg
+      given-names: Michael
+      orcid: "https://orcid.org/0009-0002-4607-6919"
+  year: 2026
+  publisher:
+    name: Zenodo
+  doi: "10.5281/zenodo.23087313"
+  url: "https://doi.org/10.5281/zenodo.23087313"
