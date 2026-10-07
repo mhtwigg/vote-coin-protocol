@@ -30,6 +30,8 @@ It is a design offered for public review and an early technology consultation wi
 |---|---|
 | `Vote Coin Protocol - White Paper v2.0 Rev 4 (2026-10-01).pdf` | **The white paper** (94 pages, 27 figures). Start here. |
 | `Vote Coin Protocol - Figures Worked Examples - Rev 4 (2026-10-01).pdf` | Every number in the figures and on the cover, with the inputs needed to recompute it |
+| `Vote Coin Protocol - Interface Specification v0.1 (2026-10-07).pdf` | One page: the on-chain and off-chain pieces — record formats, the Vote Coin token and minting policy, validator, registry, anchors and the public verification site. Proposals for review are marked **P**. |
+| `Vote Coin Protocol - Interface Page (2026-10-07).pdf` | One page, visual: what each part hands to the next, and which side of the air gap it sits on |
 | `verify_figures.py`, `figdata.json` | Recomputes every figure value (71 checks) |
 | `verify_chain_settings.py`, `chainload.json` | Recomputes the dated Cardano settings and chain-load table (13 checks) |
 | `README.txt` | What each check covers |
@@ -58,6 +60,8 @@ GitHub's **"Cite this repository"** button gives the same citation in APA and Bi
 ## Feedback
 
 Questions, corrections and critique are welcome — please open an **Issue** on this repository.
+
+The Interface Specification marks its proposals **P**; critique of those is especially welcome.
 
 ## License
 
